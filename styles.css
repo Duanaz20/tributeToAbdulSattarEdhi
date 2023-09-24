@@ -1,0 +1,98 @@
+html{
+     font-size: 10px;
+}
+body{
+    font-size: 1.6rem;
+    font-family: 'Inclusive Sans', sans-serif;
+    line-height: 1.5;
+    color: #333;
+    /* width: 100vw; */
+    margin: 0;
+    /* padding: 1.2rem; */
+}
+
+main{
+    /* border: 2px solid red; */
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #eee;
+}
+h1,h2,h3,h4{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+h1{
+    font-size: 4rem;
+    margin-top: -5px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+#tag-line{
+    margin: 0;
+    margin-top: -10px;
+    font-size: 2.1rem;
+}
+#img-div{
+    /* border: 2px solid green; */
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0;
+    background: rgb(242, 242, 242);
+}
+#image{
+    display: block;
+    border-radius: 8px;
+    max-width: 70%;
+    margin: 0 auto;
+    height: auto;
+}
+@media screen and (min-width: 240px) and (max-width: 400px){
+    #image{
+        max-width: 90%;
+    }
+    section{
+        width: 95%;
+    }
+}
+figcaption{
+    margin: 6px auto 0 auto;
+    font-size: 1.8rem;
+}
+cite{
+    display: block;
+}
+#quote{
+     font-weight: bold;
+}
+.center{
+    text-align: center;
+}
+section{
+    max-width: 70%;
+    margin: 25px auto;
+    /* border: 2px solid blue; */
+}
+section p{
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+h2{
+    font-size: 2.7rem;
+}
+h3{
+    font-size: 2.2rem;
+    margin: 8px 0;
+    margin-bottom: 0;
+}
+h4{
+    font-size: 2rem;
+    margin: 2px 0;
+}
+section ul{
+    margin: 8px 0;
+}
+.footer{
+    text-align: center;
+    font-size: 2.5rem;
+}
